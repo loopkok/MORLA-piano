@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "morla-piano"
+version = "0.1.0"
+description = "Standalone timed piano performance for MORLA Nero + XHand"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+morla-piano = "morla_piano.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["morla_piano*"]

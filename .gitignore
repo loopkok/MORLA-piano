@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+logs/
+dist/
+build/
+config/piano.calibrated.json
+.pytest_cache/
+.DS_Store

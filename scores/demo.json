@@ -1,0 +1,87 @@
+{
+  "title": "双手四指及手腕移位流程示例",
+  "tempo_bpm": 60,
+  "tonic": "C4",
+  "time_unit": "beats",
+  "gate": 0.65,
+  "events": [
+    {
+      "start": 0,
+      "duration": 1,
+      "hand": "left",
+      "note": "C3"
+    },
+    {
+      "start": 1,
+      "duration": 1,
+      "hand": "left",
+      "note": "D3"
+    },
+    {
+      "start": 2,
+      "duration": 1,
+      "hand": "left",
+      "note": "E3"
+    },
+    {
+      "start": 3,
+      "duration": 1,
+      "hand": "left",
+      "note": "F3"
+    },
+    {
+      "start": 4,
+      "duration": 1,
+      "hand": "right",
+      "note": "C4"
+    },
+    {
+      "start": 5,
+      "duration": 1,
+      "hand": "right",
+      "note": "D4"
+    },
+    {
+      "start": 6,
+      "duration": 1,
+      "hand": "right",
+      "note": "E4"
+    },
+    {
+      "start": 7,
+      "duration": 1,
+      "hand": "right",
+      "note": "F4"
+    },
+    {
+      "start": 9,
+      "duration": 1,
+      "hand": "left",
+      "note": "G3"
+    },
+    {
+      "start": 11,
+      "duration": 1,
+      "hand": "right",
+      "note": "5"
+    },
+    {
+      "start": 12,
+      "duration": 1,
+      "hand": "right",
+      "note": "0"
+    },
+    {
+      "start": 14,
+      "duration": 1,
+      "hand": "left",
+      "note": "C3"
+    },
+    {
+      "start": 16,
+      "duration": 1,
+      "hand": "right",
+      "note": "1"
+    }
+  ]
+}

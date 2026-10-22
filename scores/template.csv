@@ -1,0 +1,12 @@
+start,duration,hand,note,finger,gate,shift_white
+0,1,left,C3,pinky,0.7,0
+1,1,left,D3,ring,0.7,0
+2,1,left,E3,middle,0.7,0
+3,1,left,F3,index,0.7,0
+4,1,right,1,index,0.7,0
+5,1,right,2,middle,0.7,0
+6,1,right,3,ring,0.7,0
+7,1,right,4,pinky,0.7,0
+9,1,right,5,,0.7,
+10,1,right,0,,,
+12,1,right,1,index,0.7,0
