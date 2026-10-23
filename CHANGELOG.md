@@ -2,10 +2,41 @@
 
 记录日期使用 Asia/Shanghai；本文件记录工作区与部署变更，不代表已发布 Git tag。
 
+## 2026-10-23
+
+### 本轮入库与本地复验
+
+- 新增[详细更新日志](docs/DEBUG_LOG_2026-10-23.md)，记录performance配置边界、速度切换/恢复、采样、7份新增CSV和与MORLA的版本依赖。
+- 本次本地联合验证：引擎、调速配置及Nero SDK内存协议47项通过；配套Web回归19项、前端18项及生产构建通过。新增/修改本项目Python源码6个通过语法解析。未取得最新现场标定，未重跑新曲谱的实机配置预检、ROS参数服务或真机演奏；历史部署结果单独保留。
+
+### 德彪西《月光》主题预设
+
+- 新增 `scores/clair_de_lune_theme_C3_C5_60bpm.csv`，Web名称《德彪西〈月光〉（C调主题简化·60BPM）》，ID `c9a4098f31784fc0933fe8e0a67f96ee`。64音、82.25秒、14次换位；左手使用−1/0/+2/+3，右手0/+1/+2，全部对应已保存实测点。沿用SDK10%、规划0.225rad/s，不修改标定、限位、速度或原曲预设。
+- 来源为 Noctave CC0 C调简易编配（原作第1–14及71–72小节），提取上声部旋律、合并延音；不可达的中间八度音降低一八度交由左手，保留两处单音低音支撑，原和弦伴奏省略。按当前换位参数补入8.25秒空拍，是主题适配演示，不是完整原调原谱。
+- 完整软件演奏及Web时序预检通过，最短按住0.25秒、最短抬指空隙0.2秒；未执行真机运动。证据 `.morla_piano/diagnostics/clair_theme_validation_20261023.json`。来源：https://noctavepiano.com/en/sheet-music/debussy-clair-de-lune-facile/ 。
+
 ## 2026-10-22
+
+### 流行歌曲短句预设
+
+- 增加《稻香》C调短句演示，60 BPM、13音、14秒（含2秒预留）、右臂0↔+1两次换位。保持左手C3/右手C5及现有演奏速度；节奏拉宽、换位前加空拍，仅短句而非完整歌曲。
+- 使用当前实测标定通过完整软件演奏和Web预检；最短按住/抬指间隔均0.25秒，未执行真机运动、未修改标定或速度。Web预设ID `d93c83b1a0994ef48d604f17b8f67b6e`；验证记录 `.morla_piano/diagnostics/daoxiang_excerpt_validation_20261022.json`。
+- 旋律参考：https://jianpu.space/zh-tw/songList/651455a390e1087b5a0c2c4f 。CSV：外部项目 `scores/daoxiang_excerpt_C3_C5_60bpm.csv`。
+
+### 钢琴演奏独立速度与提速验证
+
+- 后续真机验证：操作员报告测试成功、无卡顿；会话 `e3ca66d716e04d39aef3537b4ec8aaf7` 的原版《欢乐颂》在60 BPM完成两次，分别56.089s、56.096s，每次42次按下/抬起、5次换位，无fault或motion_unconfirmed。演奏使用SDK10%，结束后双侧恢复5%。该验证支持当前配置，不代表15%或更高BPM已验证；日志不独立确认琴键发声。证据 `hardware_review.json`。
+- 增加可选 `performance` 配置及 Web 专用参数区：SDK 10%、规划上限0.225 rad/s、换位最短0.45s、稳定0.2s、抬指最短0.12s、按住最短0.15s。仅演奏和单键移位测试使用；准备、工作位、回位和在线点动保留基础速度。旧配置保持旧行为。
+- Nero 新增独立流式速度参数与 SDK 调用成功状态。速度更新在既有串行 SDK 工作线程处理，不复位、不重新使能、不发送新位置目标，保持目标继续去重；演奏前确认双侧速度应用，结束/健康停止后恢复原速度，切换等待不占曲谱时间。
+- 增加时序下限检查与会话 `speed_sample` 实测/目标记录；未改变手部标定、悬停/按下角度、限位或已关闭的手部到位检查。
+- 历史离线阶段验证：47项引擎/SDK协议及新参数检查、19项Web准备/选侧工作位/回位回归、TypeScript/Vite构建通过。隔离ROS域fake驱动确认5→10→15→5%及完整演奏后恢复5%。六首预设在候选参数60 BPM完成瞬时软件反馈演奏；普通版离线最大75 BPM、扩展版66 BPM。当时现场测试待执行；后续10%/60 BPM现场结果见本节首条，15%及更高BPM仍未由该记录证明。
+- 调速方法见外部钢琴项目 `docs/SPEED_TUNING.md`；服务器验证证据 `.morla_piano/diagnostics/speed_profile_20261022_230243/`。
 
 ### 新增
 
+- 同日晚间新增三首扩展音域CSV：`scores/ode_to_joy_expanded_C3_C5_40bpm.csv`、`scores/little_bee_expanded_C3_C5_40bpm.csv`、`scores/mary_had_a_little_lamb_expanded_C3_C5_40bpm.csv`。分别63/57/59音，约133.6/137.8/135.1秒，40 BPM；加入低音引子、高音装饰和收尾，保留原主题及原预设。固定指法/步数并按实际关节距离留换位间隔，覆盖左C2～B3、右C5～F6及所有已记录姿态。当前参数预检和FakeBackend完整演奏通过，未做真机运动；报告为服务器 `/home/loopkok/MORLA/.morla_piano/diagnostics/expanded_presets_validation_20261022.json`。
+- 实测配置后续更新：左臂−7～+3、右臂0～+7逐点记录齐全。左+2/+3的新实测点已通过限位；本文件下方左−7～1及线性外推超限的描述保留为较早阶段记录，当前配置与当日早期归档快照可能不同。
+- 同日补充 [小蜜蜂CSV](scores/little_bee_C3_C5_40bpm.csv) 与 [玛丽有只小羊羔CSV](scores/mary_had_a_little_lamb_C3_C5_40bpm.csv)：均40 BPM，分别34音/约86秒/7次换位、36音/约80秒/3次换位。固定左手0/−1、右手0/+1，已加入Web曲谱库，当前参数预检及完整FakeBackend演奏通过，无真机运动。服务器证据：`/home/loopkok/MORLA/.morla_piano/diagnostics/additional_presets_validation_20261022.json`。
 - 曲谱预设《欢乐颂主题（双手交替·40BPM）》：42音、约83秒、5次换位。CSV显式固定手指和步数，仅使用左手0/−1、右手0/+1。
 - 引擎提供 `playback` 进度状态，包含已用/总时长、动作与音符数量、当前动作和完成标志。停止或故障冻结，重新准备清空。
 - `Engine.prepare(approach=...)` 支持 Web 在准备中插入双臂四段工作轨迹，并在 approach 后以实际位置作为最后一段起点。

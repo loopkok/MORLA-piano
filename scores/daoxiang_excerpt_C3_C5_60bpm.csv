@@ -1,0 +1,14 @@
+start,duration,hand,note,finger,shift_white,gate
+0,1,left,C3,pinky,0,0.65
+1.5,1,right,G5,pinky,1,0.65
+2.5,0.5,right,G5,pinky,1,0.5
+3,1,right,G5,pinky,1,0.65
+4,1,right,G5,pinky,1,0.65
+5,1,right,G5,pinky,1,0.65
+6,0.5,right,G5,pinky,1,0.5
+6.5,0.5,right,G5,pinky,1,0.5
+7,0.5,right,G5,pinky,1,0.5
+7.5,1,right,E5,middle,1,0.65
+8.5,0.5,right,D5,index,1,0.5
+10,0.5,right,C5,index,0,0.5
+11,1,left,C3,pinky,0,0.65

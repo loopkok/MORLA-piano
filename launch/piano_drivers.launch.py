@@ -24,7 +24,7 @@ def setup(context):
         h = config["hands"][side]
         arm_config = str(Path(get_package_share_directory("nero_robot_control")) / "config" / f"nero_driver_{side}.yaml")
         parameters = {"arm_side": side, "sdk_backend": mode, "stop_on_shutdown": True,
-                      "workpos_arrival_tolerance_deg": 3.0, "native_j7_first": True, "stream_position_mode": "j"}
+                      "workpos_arrival_tolerance_deg": 3.0, "native_j7_first": True, "stream_position_mode": "j", "stream_j_speed_percent": 5}
         if mode == "fake":
             parameters["initial_position"] = [float(v) for v in h["initial_arm_rad"]]
         else:

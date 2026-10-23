@@ -258,6 +258,53 @@ class RosBackend:
             raise RuntimeError(f"{side} {verb} failed: {future.result().message if future.done() else 'timeout'}")
         return future.result()
 
+    def set_arm_speed(self, percent, targets, check):
+        """Change only stream speed, holding existing goals until driver ack.
+
+        SDK acknowledgement is a successful SDK call, not measured motor speed.
+        """
+        from rcl_interfaces.msg import Parameter, ParameterValue, ParameterType
+        from rcl_interfaces.srv import SetParametersAtomically
+        wanted, pending = {}, {}
+        requested_at = time.monotonic()
+        for side in SIDES:
+            key = side + "_arm"
+            if key not in targets:
+                continue
+            wanted[side] = int(percent if percent is not None else self.statuses[key]["position_speed_percent"])
+            client_key = (side, "stream_speed")
+            if client_key not in self.clients:
+                self.clients[client_key] = self.node.create_client(
+                    SetParametersAtomically, f"/{side}_arm/nero_robot_driver/set_parameters_atomically")
+            client = self.clients[client_key]
+            discovery_deadline = time.monotonic() + 1
+            while not client.service_is_ready():
+                check()
+                self.send(targets)
+                if time.monotonic() >= discovery_deadline:
+                    raise RuntimeError(side + " stream speed service unavailable; rebuild/restart drivers")
+                time.sleep(.01)
+            request = SetParametersAtomically.Request(parameters=[Parameter(name="stream_j_speed_percent",
+                value=ParameterValue(type=ParameterType.PARAMETER_INTEGER, integer_value=wanted[side]))])
+            pending[side] = client.call_async(request)
+        deadline = time.monotonic() + 2
+        while time.monotonic() < deadline:
+            check()
+            self.send(targets)  # preserve holding command/watchdog, including while switching both arms
+            accepted = True
+            for side, future in pending.items():
+                if not future.done():
+                    accepted = False
+                elif future.exception() or not future.result().result.successful:
+                    raise RuntimeError(side + " stream speed change rejected")
+            if accepted and all(self.statuses[s + "_arm"].get("stream_applied_speed_percent") == v
+                                and self.status_at[s + "_arm"] >= requested_at
+                                and time.monotonic() - self.status_at[s + "_arm"] < .5
+                                for s, v in wanted.items()):
+                return
+            time.sleep(.01)
+        raise RuntimeError("stream speed SDK acknowledgement timed out; no performance started")
+
     def pump(self):
         # Drain callbacks without blocking musical scheduling.
         for _ in range(12):

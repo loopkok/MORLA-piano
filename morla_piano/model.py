@@ -123,6 +123,18 @@ def load_config(path):
     return c
 
 
+PERFORMANCE_BOUNDS = {
+    "sdk_speed_percent": (1, 20), "max_arm_velocity_rad_s": (.01, .3),
+    "move_duration_s": (.1, 30), "settle_s": (.06, 5),
+    "release_settle_s": (.04, 2), "min_press_s": (.04, 2),
+}
+
+
+def performance_timing(c):
+    """Song/shift profile only; preparation and manual/home paths keep base timing."""
+    return {**c["timing"], **c.get("performance", {})}
+
+
 def validate_config(c):
     if c.get("version") != 1:
         raise ValueError("config version must be 1")
@@ -137,6 +149,17 @@ def validate_config(c):
         raise ValueError("control_hz must be >= 20")
     if c["timing"]["settle_s"] < c["timing"]["arrival_dwell_s"] + 2 / c["timing"]["control_hz"]:
         raise ValueError("settle_s must allow arrival_dwell_s plus two control ticks")
+    profile = c.get("performance")
+    if profile is not None:
+        if not isinstance(profile, dict) or set(profile) != set(PERFORMANCE_BOUNDS):
+            raise ValueError("performance requires exactly the documented speed and finger timing fields")
+        for key, (low, high) in PERFORMANCE_BOUNDS.items():
+            value = finite(profile[key], "performance." + key, low)
+            if value > high:
+                raise ValueError("performance." + key + " exceeds upper bound")
+        integer(profile["sdk_speed_percent"])
+        if profile["settle_s"] < c["timing"]["arrival_dwell_s"] + 2 / c["timing"]["control_hz"]:
+            raise ValueError("performance settle_s must allow arrival dwell plus two ticks")
     keyboard = c["keyboard"]
     if integer(keyboard["key_count"]) != 61:
         raise ValueError("this demo expects a 61-key keyboard")
@@ -272,6 +295,8 @@ def load_score(path, c):
         if gate > 1:
             raise ValueError("gate must be <= 1")
         shift = e.get("shift_white")
+        if duration * gate < performance_timing(c).get("min_press_s", 0) - 1e-9:
+            raise ValueError(f"row {row}: insufficient finger press time; lower BPM")
         notes.append(Note(row, start, start + duration * gate, side, midi, finger,
                           None if shift in (None, "") else integer(shift)))
     if not notes:
@@ -280,7 +305,7 @@ def load_score(path, c):
     for a, b in zip(notes, notes[1:]):
         if b.start_s < a.end_s - 1e-9 or abs(b.start_s - a.start_s) < 1e-9:
             raise ValueError(f"rows {a.row}/{b.row}: overlapping notes; this demo presses one key globally at a time")
-        if b.start_s < a.end_s + c["timing"]["release_settle_s"] - 1e-9:
+        if b.start_s < a.end_s + performance_timing(c)["release_settle_s"] - 1e-9:
             raise ValueError(f"rows {a.row}/{b.row}: insufficient global finger release time; lower gate or add rest")
     return meta, notes, total
 
@@ -288,7 +313,7 @@ def load_score(path, c):
 def plan_score(path, c):
     validate_config(c)
     meta, notes, total = load_score(path, c)
-    timing = c["timing"]
+    timing = performance_timing(c)
     lead = timing["lead_in_s"]
     shifts = dict.fromkeys(SIDES, 0)
     free = dict.fromkeys(SIDES, 0.0)

@@ -6,7 +6,7 @@ import threading
 import time
 from pathlib import Path
 
-from .model import FINGER_JOINTS, FINGERS, HAND_NAMES, SIDES, arm_target, check_limits
+from .model import FINGER_JOINTS, FINGERS, HAND_NAMES, SIDES, arm_target, check_limits, performance_timing
 
 
 class Stopped(RuntimeError):
@@ -102,7 +102,8 @@ class Engine:
 
     def log(self, event, **details):
         row = dict(monotonic_s=self.clock.now(), event=event, **details)
-        self.events.append(row)
+        if event != "speed_sample":
+            self.events.append(row)
         if self.log_path:
             self.log_path.parent.mkdir(parents=True, exist_ok=True)
             with self.log_path.open("a") as stream:
@@ -214,6 +215,19 @@ class Engine:
             f"误差={math.degrees(error):.3f}°，容差={math.degrees(tolerance):.3f}°；"
             "已停止，请检查该关节反馈和目标")
 
+    def _speed_restore_check(self):
+        self.backend.pump()
+        self.backend.health()
+
+    def performance_speed(self, enabled):
+        if "performance" not in self.c:
+            return
+        percent = self.c["performance"]["sdk_speed_percent"] if enabled else None
+        if hasattr(self.backend, "set_arm_speed"):
+            self.backend.set_arm_speed(percent, self.targets, self._check if enabled else self._speed_restore_check)
+        self.log("performance_speed", enabled=enabled, sdk_speed_percent=percent,
+                 timing=performance_timing(self.c) if enabled else self.c["timing"])
+
     def prepare(self, approach=None):
         """Move from measured operator position to configured piano reference."""
         self.stop_event.clear()
@@ -224,6 +238,7 @@ class Engine:
             self.backend.claim()
             self.backend.health()
             self.targets = self._command_snapshot()
+            self.performance_speed(False)
             goal = {side + "_arm": arm_target(self.c, side, 0) for side in SIDES}
             # First hover fingers, preserving all three measured thumb joints.
             for side in SIDES:
@@ -320,8 +335,19 @@ class Engine:
         self.stop_event.clear()
         self.state = "PLAYING"
         moves = {}
+        sampled_at = -float("inf")
+        # Switch before starting the score clock; service time is not musical time.
+        try:
+            self.performance_speed(True)
+        except Stopped:
+            self._normal_stop()
+            self.performance_speed(False)
+            return
+        except BaseException as exc:
+            self._fault(exc)
+            raise
         index, begin = 0, self.clock.now()
-        timing, actions = self.c["timing"], plan["actions"]
+        timing, actions = performance_timing(self.c), plan["actions"]
         self._playback_started = begin
         self.playback = dict(title=plan["title"], duration_s=plan["duration_s"], elapsed_s=0.,
                              total_actions=len(actions), completed_actions=0,
@@ -381,6 +407,12 @@ class Engine:
                     elif kind == "release":
                         self.playback["completed_notes"] += 1
                 measured = self.backend.snapshot()
+                if "performance" in self.c and self.log_path and elapsed - sampled_at >= .1:
+                    self.log("speed_sample", elapsed_s=elapsed, measured_rad=measured,
+                             target_rad={k:list(v) for k,v in self.targets.items()},
+                             pressed=self.pressed, wrist_shifts=dict(self.shifts),
+                             feedback_received_monotonic_s=dict(getattr(self.backend, "received", {})))
+                    sampled_at = elapsed
                 for side in SIDES:
                     key = side + "_arm"
                     if max(abs(a - b) for a, b in zip(measured[key], self.targets[key])) > timing["max_tracking_error_rad"]:
@@ -403,6 +435,14 @@ class Engine:
         except BaseException as exc:
             self._fault(exc)
             raise
+
+        finally:
+            if self.backend.claimed and self.state != "FAULT":
+                try:
+                    self.performance_speed(False)
+                except BaseException as exc:
+                    self._fault(exc)
+                    raise
 
     def idle(self):
         try:
