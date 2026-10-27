@@ -1,5 +1,7 @@
 # MORLA Piano
 
+> 2026-10-27：[用户曲谱归档与本次验证](docs/DEBUG_LOG_2026-10-27.md)、[原新主机导入记录](docs/USER_SCORE_PRESETS_2026-10-23.md)。新增CSV及原始材料不自动恢复Web曲谱ID或现场标定。
+
 > 2026-10-23：[演奏速度及曲谱更新日志](docs/DEBUG_LOG_2026-10-23.md)、[调速说明](docs/SPEED_TUNING.md)。新引擎与MORLA驱动/worker需配套更新；扩展曲谱依赖最新实测点，不能用旧模板替代现场配置。
 
 > 2026-10-22 更新索引：[Changelog](CHANGELOG.md)、[调试日志](docs/DEBUG_LOG_2026-10-20_22.md)。下文包含初建模板与CLI流程；当前Web部署基准为左C3、右C5，实际标定保存在服务器 `/home/loopkok/MORLA/.morla_piano/config.json`。模板的占位值和右C4示例不能覆盖现场配置。首次Web准备走四段工作位轨迹，再次演奏直接回演奏零位；最新操作差异以日志为准。

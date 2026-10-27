@@ -1,0 +1,4 @@
+# Preserve supplied score documents as binary assets, including minimal PDFs
+# whose cross-reference tables contain significant fixed-width spaces.
+*.pdf binary
+*.png binary

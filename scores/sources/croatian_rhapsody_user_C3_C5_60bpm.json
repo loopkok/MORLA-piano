@@ -1,0 +1,2305 @@
+{
+  "slug": "croatian_rhapsody_user_C3_C5_60bpm",
+  "title": "预设 · 克罗地亚狂想曲（C调单音简化·60BPM）",
+  "source_file": "曲谱/克罗地亚狂想曲钢琴简谱_数字双手_马克西姆曲谱打印和下载.pdf",
+  "source_measures": 84,
+  "arrangement": "用户PDF第2/4/6/8/10页的84小节。旋律与左手低音单音交替；原1=Eb及后段1=E统一改为1=C。密集十六分音群取隔音为八分骨架，装饰与和弦内声部省略，#5及#2若被选中改休止，不夹到相邻白键。延音/附点简化到拍网格，保留小节顺序，末尾延音小节保留；不是原调原谱全声部。",
+  "bars": [
+    {
+      "melody": [
+        {
+          "degree": "0",
+          "beats": 4
+        }
+      ],
+      "bass_degree": null,
+      "source_measure": 1
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "6",
+          "beats": 1
+        },
+        {
+          "degree": "6",
+          "beats": 1
+        }
+      ],
+      "bass_degree": null,
+      "source_measure": 2
+    },
+    {
+      "melody": [
+        {
+          "degree": "7",
+          "beats": 1
+        },
+        {
+          "degree": "7",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        }
+      ],
+      "bass_degree": null,
+      "source_measure": 3
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "6",
+          "beats": 1
+        },
+        {
+          "degree": "6",
+          "beats": 1
+        }
+      ],
+      "bass_degree": null,
+      "source_measure": 4
+    },
+    {
+      "melody": [
+        {
+          "degree": "7",
+          "beats": 1
+        },
+        {
+          "degree": "7",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        }
+      ],
+      "bass_degree": null,
+      "source_measure": 5
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 2
+        },
+        {
+          "degree": "3'",
+          "beats": 2
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 6
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        }
+      ],
+      "bass_degree": "3",
+      "source_measure": 7
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 2
+        },
+        {
+          "degree": "3'",
+          "beats": 2
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 8
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        }
+      ],
+      "bass_degree": "3",
+      "source_measure": 9
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 2
+        },
+        {
+          "degree": "6",
+          "beats": 2
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 10
+    },
+    {
+      "melody": [
+        {
+          "degree": "7",
+          "beats": 1
+        },
+        {
+          "degree": "7",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        }
+      ],
+      "bass_degree": "3",
+      "source_measure": 11
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 2
+        },
+        {
+          "degree": "6",
+          "beats": 2
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 12
+    },
+    {
+      "melody": [
+        {
+          "degree": "7",
+          "beats": 1
+        },
+        {
+          "degree": "7",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        }
+      ],
+      "bass_degree": "3",
+      "source_measure": 13
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 2
+        },
+        {
+          "degree": "3'",
+          "beats": 2
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 14
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        }
+      ],
+      "bass_degree": "3",
+      "source_measure": 15
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 2
+        },
+        {
+          "degree": "3'",
+          "beats": 2
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 16
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        }
+      ],
+      "bass_degree": "3",
+      "source_measure": 17
+    },
+    {
+      "melody": [
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "2'",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 18
+    },
+    {
+      "melody": [
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "#5",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "5",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "3'",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "3",
+      "source_measure": 19
+    },
+    {
+      "melody": [
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "2'",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 20
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 0.5
+        },
+        {
+          "degree": "5",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "3'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "0",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "3",
+      "source_measure": 21
+    },
+    {
+      "melody": [
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "2'",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 22
+    },
+    {
+      "melody": [
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "#5",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "5",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "3'",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "3",
+      "source_measure": 23
+    },
+    {
+      "melody": [
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "2'",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 24
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 0.5
+        },
+        {
+          "degree": "5",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "3'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "0",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "3",
+      "source_measure": 25
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "3'",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "4",
+          "beats": 0.5
+        },
+        {
+          "degree": "3'",
+          "beats": 0.5
+        },
+        {
+          "degree": "2'",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 26
+    },
+    {
+      "melody": [
+        {
+          "degree": "2'",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "2'",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "3'",
+          "beats": 0.5
+        },
+        {
+          "degree": "2'",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "5",
+      "source_measure": 27
+    },
+    {
+      "melody": [
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "2'",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "4",
+      "source_measure": 28
+    },
+    {
+      "melody": [
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "3'",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "3'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "0",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "3",
+      "source_measure": 29
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "3'",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "4",
+          "beats": 0.5
+        },
+        {
+          "degree": "3'",
+          "beats": 0.5
+        },
+        {
+          "degree": "4",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 30
+    },
+    {
+      "melody": [
+        {
+          "degree": "5",
+          "beats": 0.5
+        },
+        {
+          "degree": "2'",
+          "beats": 0.5
+        },
+        {
+          "degree": "5",
+          "beats": 0.5
+        },
+        {
+          "degree": "4",
+          "beats": 0.5
+        },
+        {
+          "degree": "3'",
+          "beats": 0.5
+        },
+        {
+          "degree": "2'",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "5",
+      "source_measure": 31
+    },
+    {
+      "melody": [
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "2'",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "4",
+      "source_measure": 32
+    },
+    {
+      "melody": [
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "#5",
+          "beats": 0.5
+        },
+        {
+          "degree": "2'",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "3'",
+          "beats": 0.5
+        },
+        {
+          "degree": "2'",
+          "beats": 0.5
+        },
+        {
+          "degree": "#5",
+          "beats": 0.5
+        },
+        {
+          "degree": "3'",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "3",
+      "source_measure": 33
+    },
+    {
+      "melody": [
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "#5",
+          "beats": 0.5
+        },
+        {
+          "degree": "2'",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "3'",
+          "beats": 0.5
+        },
+        {
+          "degree": "2'",
+          "beats": 0.5
+        },
+        {
+          "degree": "#5",
+          "beats": 0.5
+        },
+        {
+          "degree": "2'",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "3",
+      "source_measure": 34
+    },
+    {
+      "melody": [
+        {
+          "degree": "6",
+          "beats": 4
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 35
+    },
+    {
+      "melody": [
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "3'",
+          "beats": 0.5
+        },
+        {
+          "degree": "2'",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "3'",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 36
+    },
+    {
+      "melody": [
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "3'",
+          "beats": 0.5
+        },
+        {
+          "degree": "2'",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "3'",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 37
+    },
+    {
+      "melody": [
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "3'",
+          "beats": 0.5
+        },
+        {
+          "degree": "2'",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "3'",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 38
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 2
+        },
+        {
+          "degree": "6",
+          "beats": 2
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 39
+    },
+    {
+      "melody": [
+        {
+          "degree": "7",
+          "beats": 1
+        },
+        {
+          "degree": "7",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        }
+      ],
+      "bass_degree": "3",
+      "source_measure": 40
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 2
+        },
+        {
+          "degree": "6",
+          "beats": 2
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 41
+    },
+    {
+      "melody": [
+        {
+          "degree": "7",
+          "beats": 1
+        },
+        {
+          "degree": "7",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        }
+      ],
+      "bass_degree": "3",
+      "source_measure": 42
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 2
+        },
+        {
+          "degree": "3'",
+          "beats": 2
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 43
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        }
+      ],
+      "bass_degree": "3",
+      "source_measure": 44
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 2
+        },
+        {
+          "degree": "3'",
+          "beats": 2
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 45
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        }
+      ],
+      "bass_degree": "3",
+      "source_measure": 46
+    },
+    {
+      "melody": [
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "2'",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 47
+    },
+    {
+      "melody": [
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "#5",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "5",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "3'",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "3",
+      "source_measure": 48
+    },
+    {
+      "melody": [
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "2'",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 49
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 0.5
+        },
+        {
+          "degree": "5",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "3'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "0",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "3",
+      "source_measure": 50
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "3'",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "4",
+          "beats": 0.5
+        },
+        {
+          "degree": "3'",
+          "beats": 0.5
+        },
+        {
+          "degree": "4",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 51
+    },
+    {
+      "melody": [
+        {
+          "degree": "5",
+          "beats": 0.5
+        },
+        {
+          "degree": "2'",
+          "beats": 0.5
+        },
+        {
+          "degree": "5",
+          "beats": 0.5
+        },
+        {
+          "degree": "4",
+          "beats": 0.5
+        },
+        {
+          "degree": "3'",
+          "beats": 0.5
+        },
+        {
+          "degree": "2'",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "5",
+      "source_measure": 52
+    },
+    {
+      "melody": [
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "2'",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "4",
+      "source_measure": 53
+    },
+    {
+      "melody": [
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "#5",
+          "beats": 0.5
+        },
+        {
+          "degree": "2'",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "3'",
+          "beats": 0.5
+        },
+        {
+          "degree": "2'",
+          "beats": 0.5
+        },
+        {
+          "degree": "#5",
+          "beats": 0.5
+        },
+        {
+          "degree": "2'",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "3",
+      "source_measure": 54
+    },
+    {
+      "melody": [
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "4",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "#2",
+          "beats": 0.5
+        },
+        {
+          "degree": "0",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "4",
+      "source_measure": 55
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "6",
+          "beats": 1
+        },
+        {
+          "degree": "6",
+          "beats": 1
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 56
+    },
+    {
+      "melody": [
+        {
+          "degree": "7",
+          "beats": 1
+        },
+        {
+          "degree": "7",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        }
+      ],
+      "bass_degree": "3",
+      "source_measure": 57
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "6",
+          "beats": 1
+        },
+        {
+          "degree": "6",
+          "beats": 1
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 58
+    },
+    {
+      "melody": [
+        {
+          "degree": "7",
+          "beats": 1
+        },
+        {
+          "degree": "7",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        }
+      ],
+      "bass_degree": "3",
+      "source_measure": 59
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 2
+        },
+        {
+          "degree": "3'",
+          "beats": 2
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 60
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        }
+      ],
+      "bass_degree": "3",
+      "source_measure": 61
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 2
+        },
+        {
+          "degree": "3'",
+          "beats": 2
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 62
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        }
+      ],
+      "bass_degree": "3",
+      "source_measure": 63
+    },
+    {
+      "melody": [
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "2'",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 64
+    },
+    {
+      "melody": [
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "#5",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "5",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "3'",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "3",
+      "source_measure": 65
+    },
+    {
+      "melody": [
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "2'",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 66
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 0.5
+        },
+        {
+          "degree": "5",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "3'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "0",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "3",
+      "source_measure": 67
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "3'",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "4",
+          "beats": 0.5
+        },
+        {
+          "degree": "3'",
+          "beats": 0.5
+        },
+        {
+          "degree": "4",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 68
+    },
+    {
+      "melody": [
+        {
+          "degree": "5",
+          "beats": 0.5
+        },
+        {
+          "degree": "2'",
+          "beats": 0.5
+        },
+        {
+          "degree": "5",
+          "beats": 0.5
+        },
+        {
+          "degree": "4",
+          "beats": 0.5
+        },
+        {
+          "degree": "3'",
+          "beats": 0.5
+        },
+        {
+          "degree": "2'",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "5",
+      "source_measure": 69
+    },
+    {
+      "melody": [
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        },
+        {
+          "degree": "2'",
+          "beats": 0.5
+        },
+        {
+          "degree": "1'",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "4",
+      "source_measure": 70
+    },
+    {
+      "melody": [
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "#5",
+          "beats": 0.5
+        },
+        {
+          "degree": "5",
+          "beats": 0.5
+        },
+        {
+          "degree": "#5",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "#5",
+          "beats": 0.5
+        },
+        {
+          "degree": "5",
+          "beats": 0.5
+        },
+        {
+          "degree": "2'",
+          "beats": 0.5
+        }
+      ],
+      "bass_degree": "3",
+      "source_measure": 71
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "6",
+          "beats": 1
+        },
+        {
+          "degree": "6",
+          "beats": 1
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 72
+    },
+    {
+      "melody": [
+        {
+          "degree": "7",
+          "beats": 1
+        },
+        {
+          "degree": "7",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        }
+      ],
+      "bass_degree": "3",
+      "source_measure": 73
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "6",
+          "beats": 1
+        },
+        {
+          "degree": "6",
+          "beats": 1
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 74
+    },
+    {
+      "melody": [
+        {
+          "degree": "7",
+          "beats": 1
+        },
+        {
+          "degree": "7",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        }
+      ],
+      "bass_degree": "3",
+      "source_measure": 75
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 2
+        },
+        {
+          "degree": "3'",
+          "beats": 2
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 76
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        }
+      ],
+      "bass_degree": "3",
+      "source_measure": 77
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 2
+        },
+        {
+          "degree": "3'",
+          "beats": 2
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 78
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        }
+      ],
+      "bass_degree": "3",
+      "source_measure": 79
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "6",
+          "beats": 1
+        },
+        {
+          "degree": "6",
+          "beats": 1
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 80
+    },
+    {
+      "melody": [
+        {
+          "degree": "7",
+          "beats": 1
+        },
+        {
+          "degree": "7",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        }
+      ],
+      "bass_degree": "3",
+      "source_measure": 81
+    },
+    {
+      "melody": [
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "3'",
+          "beats": 1
+        },
+        {
+          "degree": "6",
+          "beats": 1
+        },
+        {
+          "degree": "6",
+          "beats": 1
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 82
+    },
+    {
+      "melody": [
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "7",
+          "beats": 0.5
+        },
+        {
+          "degree": "2'",
+          "beats": 0.5
+        },
+        {
+          "degree": "3'",
+          "beats": 0.5
+        },
+        {
+          "degree": "6",
+          "beats": 2
+        }
+      ],
+      "bass_degree": "3",
+      "source_measure": 83
+    },
+    {
+      "melody": [
+        {
+          "degree": "6",
+          "beats": 4
+        }
+      ],
+      "bass_degree": "6",
+      "source_measure": 84
+    }
+  ]
+}

@@ -1,0 +1,1207 @@
+{
+  "date": "2026-10-23",
+  "config_sha256": "21d106541be16689056b1489f3b49c2ca099ab48207f7bbea50add474fbfb991",
+  "performance": {
+    "max_arm_velocity_rad_s": 0.225,
+    "min_press_s": 0.15,
+    "move_duration_s": 0.45,
+    "release_settle_s": 0.12,
+    "sdk_speed_percent": 10,
+    "settle_s": 0.2
+  },
+  "pending": {
+    "title": "诀别书",
+    "reason": "Supplied PDF is a 965-byte empty page with empty content stream; no notes available"
+  },
+  "outputs": [
+    {
+      "name": "预设 · 卡农（C调单音简化·60BPM）",
+      "file": "canon_user_C3_C5_60bpm.csv",
+      "format": "csv",
+      "tempo_bpm": 60,
+      "tonic": "C5",
+      "notes": 236,
+      "source_file": "曲谱/卡农.png",
+      "source_sha256": "93247198d66a09efa5f50bb5c4d34913fa11e2ab591e83808a12fc41f62fa465",
+      "source_measures": 50,
+      "arrangement": "按图片顺序提取上层旋律骨架，省略同时伴奏；旋律时值量化为四拍内的四分/八分/二分音符。低音取各小节底层音型首音，在旋律前错开半拍；保留50个可见小节的顺序，不是原谱逐音逐时值复刻。",
+      "low_note_lead_beats": 0.5,
+      "extra_rest_beats": 45.25,
+      "inserted_rests": [
+        {
+          "measure": 1,
+          "side": "right",
+          "from": 0,
+          "to": 4,
+          "extra_beats": 1.75
+        },
+        {
+          "measure": 1,
+          "side": "right",
+          "from": 4,
+          "to": 2,
+          "extra_beats": 1
+        },
+        {
+          "measure": 3,
+          "side": "right",
+          "from": 2,
+          "to": 4,
+          "extra_beats": 1
+        },
+        {
+          "measure": 3,
+          "side": "right",
+          "from": 4,
+          "to": 2,
+          "extra_beats": 1
+        },
+        {
+          "measure": 3,
+          "side": "right",
+          "from": 2,
+          "to": 3,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 4,
+          "side": "right",
+          "from": 4,
+          "to": 2,
+          "extra_beats": 1
+        },
+        {
+          "measure": 4,
+          "side": "right",
+          "from": 2,
+          "to": 3,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 5,
+          "side": "right",
+          "from": 3,
+          "to": 5,
+          "extra_beats": 0.5
+        },
+        {
+          "measure": 5,
+          "side": "right",
+          "from": 5,
+          "to": 7,
+          "extra_beats": 1
+        },
+        {
+          "measure": 6,
+          "side": "right",
+          "from": 7,
+          "to": 2,
+          "extra_beats": 1.5
+        },
+        {
+          "measure": 7,
+          "side": "right",
+          "from": 2,
+          "to": 4,
+          "extra_beats": 1
+        },
+        {
+          "measure": 7,
+          "side": "right",
+          "from": 4,
+          "to": 2,
+          "extra_beats": 1
+        },
+        {
+          "measure": 7,
+          "side": "right",
+          "from": 2,
+          "to": 3,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 9,
+          "side": "right",
+          "from": 5,
+          "to": 7,
+          "extra_beats": 1
+        },
+        {
+          "measure": 18,
+          "side": "right",
+          "from": 6,
+          "to": 4,
+          "extra_beats": 1
+        },
+        {
+          "measure": 19,
+          "side": "right",
+          "from": 4,
+          "to": 6,
+          "extra_beats": 0.5
+        },
+        {
+          "measure": 19,
+          "side": "right",
+          "from": 6,
+          "to": 4,
+          "extra_beats": 1
+        },
+        {
+          "measure": 20,
+          "side": "right",
+          "from": 4,
+          "to": 7,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 21,
+          "side": "right",
+          "from": 7,
+          "to": 4,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 22,
+          "side": "right",
+          "from": 4,
+          "to": 6,
+          "extra_beats": 0.5
+        },
+        {
+          "measure": 22,
+          "side": "right",
+          "from": 6,
+          "to": 4,
+          "extra_beats": 1
+        },
+        {
+          "measure": 23,
+          "side": "right",
+          "from": 4,
+          "to": 6,
+          "extra_beats": 0.5
+        },
+        {
+          "measure": 23,
+          "side": "right",
+          "from": 6,
+          "to": 4,
+          "extra_beats": 1
+        },
+        {
+          "measure": 23,
+          "side": "right",
+          "from": 4,
+          "to": 6,
+          "extra_beats": 1
+        },
+        {
+          "measure": 23,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 24,
+          "side": "right",
+          "from": 5,
+          "to": 7,
+          "extra_beats": 0.5
+        },
+        {
+          "measure": 25,
+          "side": "right",
+          "from": 7,
+          "to": 4,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 26,
+          "side": "right",
+          "from": 4,
+          "to": 6,
+          "extra_beats": 0.5
+        },
+        {
+          "measure": 27,
+          "side": "right",
+          "from": 5,
+          "to": 4,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 30,
+          "side": "right",
+          "from": 4,
+          "to": 6,
+          "extra_beats": 0.5
+        },
+        {
+          "measure": 31,
+          "side": "right",
+          "from": 5,
+          "to": 4,
+          "extra_beats": 0.5
+        },
+        {
+          "measure": 32,
+          "side": "right",
+          "from": 5,
+          "to": 6,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 33,
+          "side": "right",
+          "from": 5,
+          "to": 7,
+          "extra_beats": 1
+        },
+        {
+          "measure": 33,
+          "side": "right",
+          "from": 7,
+          "to": 4,
+          "extra_beats": 1.25
+        },
+        {
+          "measure": 33,
+          "side": "right",
+          "from": 4,
+          "to": 5,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 34,
+          "side": "right",
+          "from": 5,
+          "to": 2,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 35,
+          "side": "right",
+          "from": 2,
+          "to": 4,
+          "extra_beats": 1
+        },
+        {
+          "measure": 35,
+          "side": "right",
+          "from": 4,
+          "to": 2,
+          "extra_beats": 1
+        },
+        {
+          "measure": 37,
+          "side": "right",
+          "from": 3,
+          "to": 5,
+          "extra_beats": 0.5
+        },
+        {
+          "measure": 37,
+          "side": "right",
+          "from": 5,
+          "to": 7,
+          "extra_beats": 1
+        },
+        {
+          "measure": 38,
+          "side": "right",
+          "from": 7,
+          "to": 2,
+          "extra_beats": 1.5
+        },
+        {
+          "measure": 41,
+          "side": "right",
+          "from": 4,
+          "to": 7,
+          "extra_beats": 1.25
+        },
+        {
+          "measure": 42,
+          "side": "right",
+          "from": 7,
+          "to": 4,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 42,
+          "side": "right",
+          "from": 4,
+          "to": 6,
+          "extra_beats": 1
+        },
+        {
+          "measure": 42,
+          "side": "right",
+          "from": 6,
+          "to": 4,
+          "extra_beats": 1
+        },
+        {
+          "measure": 42,
+          "side": "right",
+          "from": 4,
+          "to": 7,
+          "extra_beats": 1.25
+        },
+        {
+          "measure": 44,
+          "side": "right",
+          "from": 6,
+          "to": 4,
+          "extra_beats": 0.5
+        },
+        {
+          "measure": 46,
+          "side": "right",
+          "from": 4,
+          "to": 6,
+          "extra_beats": 1
+        },
+        {
+          "measure": 46,
+          "side": "right",
+          "from": 6,
+          "to": 4,
+          "extra_beats": 1
+        },
+        {
+          "measure": 46,
+          "side": "right",
+          "from": 4,
+          "to": 7,
+          "extra_beats": 1.25
+        },
+        {
+          "measure": 48,
+          "side": "right",
+          "from": 6,
+          "to": 4,
+          "extra_beats": 0.5
+        }
+      ],
+      "octave_folds": [],
+      "omitted_chromatic_notes": [],
+      "csv_sha256": "4bfe93aa3f9bdc8f16bf9b8dfd487d59ebab7aedcf7e798fd7ac74922c394ec4",
+      "expected_duration_s": 272.25,
+      "hands": {
+        "left": {
+          "notes": 50,
+          "shifts": [
+            -4,
+            -3,
+            -2,
+            0
+          ]
+        },
+        "right": {
+          "notes": 186,
+          "shifts": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      }
+    },
+    {
+      "name": "预设 · 克罗地亚狂想曲（C调单音简化·60BPM）",
+      "file": "croatian_rhapsody_user_C3_C5_60bpm.csv",
+      "format": "csv",
+      "tempo_bpm": 60,
+      "tonic": "C5",
+      "notes": 506,
+      "source_file": "曲谱/克罗地亚狂想曲钢琴简谱_数字双手_马克西姆曲谱打印和下载.pdf",
+      "source_sha256": "8d981f3db11165a858b4ff38ac0fd695cf4a199013f256bdbb9d06a4cbe66b8a",
+      "source_measures": 84,
+      "arrangement": "用户PDF第2/4/6/8/10页的84小节。旋律与左手低音单音交替；原1=Eb及后段1=E统一改为1=C。密集十六分音群取隔音为八分骨架，装饰与和弦内声部省略，#5及#2若被选中改休止，不夹到相邻白键。延音/附点简化到拍网格，保留小节顺序，末尾延音小节保留；不是原调原谱全声部。",
+      "low_note_lead_beats": 0.5,
+      "extra_rest_beats": 66.5,
+      "inserted_rests": [
+        {
+          "measure": 2,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 3,
+          "side": "right",
+          "from": 5,
+          "to": 6,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 4,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 5,
+          "side": "right",
+          "from": 5,
+          "to": 6,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 10,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.5
+        },
+        {
+          "measure": 12,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.5
+        },
+        {
+          "measure": 19,
+          "side": "right",
+          "from": 5,
+          "to": 4,
+          "extra_beats": 0.25
+        },
+        {
+          "measure": 19,
+          "side": "right",
+          "from": 4,
+          "to": 6,
+          "extra_beats": 1
+        },
+        {
+          "measure": 20,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.25
+        },
+        {
+          "measure": 21,
+          "side": "right",
+          "from": 5,
+          "to": 6,
+          "extra_beats": 0.25
+        },
+        {
+          "measure": 21,
+          "side": "right",
+          "from": 6,
+          "to": 4,
+          "extra_beats": 1
+        },
+        {
+          "measure": 21,
+          "side": "right",
+          "from": 4,
+          "to": 6,
+          "extra_beats": 1
+        },
+        {
+          "measure": 21,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 23,
+          "side": "right",
+          "from": 5,
+          "to": 4,
+          "extra_beats": 0.25
+        },
+        {
+          "measure": 23,
+          "side": "right",
+          "from": 4,
+          "to": 6,
+          "extra_beats": 1
+        },
+        {
+          "measure": 24,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.25
+        },
+        {
+          "measure": 25,
+          "side": "right",
+          "from": 5,
+          "to": 6,
+          "extra_beats": 0.25
+        },
+        {
+          "measure": 25,
+          "side": "right",
+          "from": 6,
+          "to": 4,
+          "extra_beats": 1
+        },
+        {
+          "measure": 25,
+          "side": "right",
+          "from": 4,
+          "to": 6,
+          "extra_beats": 1
+        },
+        {
+          "measure": 25,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 26,
+          "side": "right",
+          "from": 6,
+          "to": 3,
+          "extra_beats": 1.25
+        },
+        {
+          "measure": 26,
+          "side": "right",
+          "from": 3,
+          "to": 6,
+          "extra_beats": 1.25
+        },
+        {
+          "measure": 28,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.25
+        },
+        {
+          "measure": 29,
+          "side": "right",
+          "from": 5,
+          "to": 6,
+          "extra_beats": 0.25
+        },
+        {
+          "measure": 29,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 29,
+          "side": "right",
+          "from": 5,
+          "to": 6,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 29,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 30,
+          "side": "right",
+          "from": 6,
+          "to": 3,
+          "extra_beats": 1.25
+        },
+        {
+          "measure": 30,
+          "side": "right",
+          "from": 3,
+          "to": 6,
+          "extra_beats": 1.25
+        },
+        {
+          "measure": 30,
+          "side": "right",
+          "from": 6,
+          "to": 3,
+          "extra_beats": 1.25
+        },
+        {
+          "measure": 31,
+          "side": "right",
+          "from": 3,
+          "to": 4,
+          "extra_beats": 0.25
+        },
+        {
+          "measure": 31,
+          "side": "right",
+          "from": 4,
+          "to": 5,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 31,
+          "side": "right",
+          "from": 5,
+          "to": 3,
+          "extra_beats": 1
+        },
+        {
+          "measure": 31,
+          "side": "right",
+          "from": 3,
+          "to": 6,
+          "extra_beats": 1.25
+        },
+        {
+          "measure": 32,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.25
+        },
+        {
+          "measure": 33,
+          "side": "right",
+          "from": 5,
+          "to": 6,
+          "extra_beats": 0.25
+        },
+        {
+          "measure": 34,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.25
+        },
+        {
+          "measure": 36,
+          "side": "right",
+          "from": 5,
+          "to": 6,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 36,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 36,
+          "side": "right",
+          "from": 5,
+          "to": 6,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 37,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.25
+        },
+        {
+          "measure": 37,
+          "side": "right",
+          "from": 5,
+          "to": 6,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 37,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 37,
+          "side": "right",
+          "from": 5,
+          "to": 6,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 38,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.25
+        },
+        {
+          "measure": 38,
+          "side": "right",
+          "from": 5,
+          "to": 6,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 38,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 38,
+          "side": "right",
+          "from": 5,
+          "to": 6,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 39,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.5
+        },
+        {
+          "measure": 41,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.5
+        },
+        {
+          "measure": 48,
+          "side": "right",
+          "from": 5,
+          "to": 4,
+          "extra_beats": 0.25
+        },
+        {
+          "measure": 48,
+          "side": "right",
+          "from": 4,
+          "to": 6,
+          "extra_beats": 1
+        },
+        {
+          "measure": 49,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.25
+        },
+        {
+          "measure": 50,
+          "side": "right",
+          "from": 5,
+          "to": 6,
+          "extra_beats": 0.25
+        },
+        {
+          "measure": 50,
+          "side": "right",
+          "from": 6,
+          "to": 4,
+          "extra_beats": 1
+        },
+        {
+          "measure": 50,
+          "side": "right",
+          "from": 4,
+          "to": 6,
+          "extra_beats": 1
+        },
+        {
+          "measure": 50,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 51,
+          "side": "right",
+          "from": 6,
+          "to": 3,
+          "extra_beats": 1.25
+        },
+        {
+          "measure": 51,
+          "side": "right",
+          "from": 3,
+          "to": 6,
+          "extra_beats": 1.25
+        },
+        {
+          "measure": 51,
+          "side": "right",
+          "from": 6,
+          "to": 3,
+          "extra_beats": 1.25
+        },
+        {
+          "measure": 52,
+          "side": "right",
+          "from": 3,
+          "to": 4,
+          "extra_beats": 0.25
+        },
+        {
+          "measure": 52,
+          "side": "right",
+          "from": 4,
+          "to": 5,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 52,
+          "side": "right",
+          "from": 5,
+          "to": 3,
+          "extra_beats": 1
+        },
+        {
+          "measure": 52,
+          "side": "right",
+          "from": 3,
+          "to": 6,
+          "extra_beats": 1.25
+        },
+        {
+          "measure": 53,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.25
+        },
+        {
+          "measure": 54,
+          "side": "right",
+          "from": 5,
+          "to": 6,
+          "extra_beats": 0.25
+        },
+        {
+          "measure": 54,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.25
+        },
+        {
+          "measure": 55,
+          "side": "right",
+          "from": 5,
+          "to": 4,
+          "extra_beats": 0.25
+        },
+        {
+          "measure": 55,
+          "side": "right",
+          "from": 4,
+          "to": 3,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 55,
+          "side": "right",
+          "from": 3,
+          "to": 4,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 56,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 58,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 65,
+          "side": "right",
+          "from": 5,
+          "to": 4,
+          "extra_beats": 0.25
+        },
+        {
+          "measure": 65,
+          "side": "right",
+          "from": 4,
+          "to": 6,
+          "extra_beats": 1
+        },
+        {
+          "measure": 66,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.25
+        },
+        {
+          "measure": 67,
+          "side": "right",
+          "from": 5,
+          "to": 6,
+          "extra_beats": 0.25
+        },
+        {
+          "measure": 67,
+          "side": "right",
+          "from": 6,
+          "to": 4,
+          "extra_beats": 1
+        },
+        {
+          "measure": 67,
+          "side": "right",
+          "from": 4,
+          "to": 6,
+          "extra_beats": 1
+        },
+        {
+          "measure": 67,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 68,
+          "side": "right",
+          "from": 6,
+          "to": 3,
+          "extra_beats": 1.25
+        },
+        {
+          "measure": 68,
+          "side": "right",
+          "from": 3,
+          "to": 6,
+          "extra_beats": 1.25
+        },
+        {
+          "measure": 68,
+          "side": "right",
+          "from": 6,
+          "to": 3,
+          "extra_beats": 1.25
+        },
+        {
+          "measure": 69,
+          "side": "right",
+          "from": 3,
+          "to": 4,
+          "extra_beats": 0.25
+        },
+        {
+          "measure": 69,
+          "side": "right",
+          "from": 4,
+          "to": 5,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 69,
+          "side": "right",
+          "from": 5,
+          "to": 3,
+          "extra_beats": 1
+        },
+        {
+          "measure": 69,
+          "side": "right",
+          "from": 3,
+          "to": 6,
+          "extra_beats": 1.25
+        },
+        {
+          "measure": 70,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.25
+        },
+        {
+          "measure": 71,
+          "side": "right",
+          "from": 5,
+          "to": 4,
+          "extra_beats": 0.25
+        },
+        {
+          "measure": 71,
+          "side": "right",
+          "from": 4,
+          "to": 5,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 72,
+          "side": "right",
+          "from": 5,
+          "to": 6,
+          "extra_beats": 0.25
+        },
+        {
+          "measure": 72,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 74,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 80,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 82,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.75
+        },
+        {
+          "measure": 83,
+          "side": "right",
+          "from": 6,
+          "to": 5,
+          "extra_beats": 0.75
+        }
+      ],
+      "octave_folds": [],
+      "omitted_chromatic_notes": [
+        {
+          "measure": 19,
+          "degree": "#5",
+          "beats": 0.5,
+          "reason": "No calibrated black key; retain rest"
+        },
+        {
+          "measure": 23,
+          "degree": "#5",
+          "beats": 0.5,
+          "reason": "No calibrated black key; retain rest"
+        },
+        {
+          "measure": 33,
+          "degree": "#5",
+          "beats": 0.5,
+          "reason": "No calibrated black key; retain rest"
+        },
+        {
+          "measure": 33,
+          "degree": "#5",
+          "beats": 0.5,
+          "reason": "No calibrated black key; retain rest"
+        },
+        {
+          "measure": 34,
+          "degree": "#5",
+          "beats": 0.5,
+          "reason": "No calibrated black key; retain rest"
+        },
+        {
+          "measure": 34,
+          "degree": "#5",
+          "beats": 0.5,
+          "reason": "No calibrated black key; retain rest"
+        },
+        {
+          "measure": 48,
+          "degree": "#5",
+          "beats": 0.5,
+          "reason": "No calibrated black key; retain rest"
+        },
+        {
+          "measure": 54,
+          "degree": "#5",
+          "beats": 0.5,
+          "reason": "No calibrated black key; retain rest"
+        },
+        {
+          "measure": 54,
+          "degree": "#5",
+          "beats": 0.5,
+          "reason": "No calibrated black key; retain rest"
+        },
+        {
+          "measure": 55,
+          "degree": "#2",
+          "beats": 0.5,
+          "reason": "No calibrated black key; retain rest"
+        },
+        {
+          "measure": 65,
+          "degree": "#5",
+          "beats": 0.5,
+          "reason": "No calibrated black key; retain rest"
+        },
+        {
+          "measure": 71,
+          "degree": "#5",
+          "beats": 0.5,
+          "reason": "No calibrated black key; retain rest"
+        },
+        {
+          "measure": 71,
+          "degree": "#5",
+          "beats": 0.5,
+          "reason": "No calibrated black key; retain rest"
+        },
+        {
+          "measure": 71,
+          "degree": "#5",
+          "beats": 0.5,
+          "reason": "No calibrated black key; retain rest"
+        }
+      ],
+      "csv_sha256": "cb4c9e476446a30e125fae201303eabbd433235822396478fcda77610aadfc85",
+      "expected_duration_s": 444,
+      "hands": {
+        "left": {
+          "notes": 79,
+          "shifts": [
+            -4,
+            -2,
+            -1
+          ]
+        },
+        "right": {
+          "notes": 427,
+          "shifts": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      }
+    }
+  ]
+}
